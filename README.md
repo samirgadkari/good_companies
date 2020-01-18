@@ -1,5 +1,5 @@
 # good_companies
-Find good companies based on their 10K statements.
+Find good companies based on their 10K filings to the SEC (Securities and Exchange Commision).
 
 This is a project that allows me to explore different libraries, and includes:
   - Jsoup to scrape www.sec.gov/edgar website and download Excel Files
@@ -11,7 +11,7 @@ This is a project that allows me to explore different libraries, and includes:
     - org.apache.solr.client.solrj.impl._
     - org.apache.solr.common
     
-This is how code is split among the files:
+This is how the code is split among the files:
   - Some work on scala.concurrent.{ Future, blocking, Await } in asynchronous.scala
   - Load configuration from file into Config object in config.scala
   - Created a connection class to handle retries and timeout in conn.scala
